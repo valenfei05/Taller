@@ -1,6 +1,6 @@
-def add(num_1, num_2):
-    result = num_1 + num_2
-    print(f'{num_1} + {num_2} is equal to {result}')
+def division(num_1, num_2):
+    result = num_1 / num_2
+    print(f'{num_1} ÷ {num_2} is equal to {result}')
     return result
 def game():
     score = 0
@@ -15,7 +15,7 @@ def game():
         num_2 = input('Enter second number: ')
         answer = int(input('Enter you answer: '))
         if option == 1:
-            result = add(num_1, num_2)
+            result = divison(num_1, num_2)
             if result == answer:
                 score += 1
                 print('Correct!!')
