@@ -1,6 +1,6 @@
-def sum(num_1, num_2):
-    result = num_1 + num_2
-    print(f'{num_1} + {num_2} is equal to {result}')
+def multi(num_1, num_2):
+    result = num_1 * num_2
+    print(f'{num_1} x {num_2} is equal to {result}')
     return result
 def game():
     score = 0
@@ -15,9 +15,9 @@ def game():
         num_2 = input('Enter second number: ')
         answer = int(input('Enter you answer: '))
         if option == 1:
-            result = sum(num_1, num_2)
+            result = multi(num_1, num_2)
             if result == answer:
-                score += 1
+                score += 0
                 print('Correct!!')
             else:
                 print('Incorrect')
