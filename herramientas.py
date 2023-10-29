@@ -17,7 +17,7 @@ def game():
         if option == 1:
             result = multi(num_1, num_2)
             if result == answer:
-                score += 2
+                score += 0
                 print('Correct!!')
             else:
                 print('Incorrect')
